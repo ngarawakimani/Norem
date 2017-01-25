@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/border">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="320dp"
+            android:padding="5dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/msg_headline"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Request Accepted"
+                android:lines="1"
+                android:textColor="#000"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="8dp"/>
+
+
+            <TextView
+                android:id="@+id/msg_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-11-13 00:00:00"
+                android:textSize="12sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/msg_message"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="All tenants with dues are reminded to pay the money on or before 8th november 2016."
+            android:lines="3"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
